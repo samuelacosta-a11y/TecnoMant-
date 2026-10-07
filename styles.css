@@ -22,3 +22,20 @@ header p {
     color: #E2E8F0;
     font-size: 16px;
 }
+nav {
+    background-color: #2563EB;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    display: inline-block;
+}
+
+nav a:hover {
+    color: #BAE6FD;
+}
