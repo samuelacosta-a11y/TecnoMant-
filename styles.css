@@ -77,3 +77,10 @@ article p {
     font-size: 20px;
     margin-bottom: 0;
 }
+footer {
+    background-color: #1E293B;
+    color: #F8FAFC;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+}
