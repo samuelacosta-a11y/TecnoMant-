@@ -39,3 +39,41 @@ nav a {
 nav a:hover {
     color: #BAE6FD;
 }
+main {
+    max-width: 1100px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: #1E293B;
+    padding: 25px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+}
+
+section h2 {
+    color: #BAE6FD;
+    font-size: 24px;
+    margin-top: 0;
+}
+
+article {
+    background-color: #334155;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border-left: 4px solid #38BDF8;
+}
+
+article h3 {
+    color: #F8FAFC;
+    font-size: 18px;
+    margin-top: 0;
+}
+
+article p {
+    color: #BAE6FD;
+    font-size: 20px;
+    margin-bottom: 0;
+}
