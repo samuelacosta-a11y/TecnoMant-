@@ -6,3 +6,19 @@ body {
     line-height: 1.5;
     margin: 0;
 }
+header {
+    background-color: #1E293B;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    color: #BAE6FD;
+    font-size: 32px;
+    margin-top: 0;
+}
+
+header p {
+    color: #E2E8F0;
+    font-size: 16px;
+}
