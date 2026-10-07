@@ -24,7 +24,10 @@ header p {
 }
 nav {
     background-color: #2563EB;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
     padding: 15px;
 }
 
@@ -83,4 +86,9 @@ footer {
     text-align: center;
     padding: 20px;
     font-size: 14px;
+}
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+    }
 }
