@@ -34,7 +34,6 @@ nav {
 nav a {
     color: #FFFFFF;
     text-decoration: none;
-    margin: 0 15px;
     font-weight: bold;
     display: inline-block;
 }
@@ -42,7 +41,16 @@ nav a {
 nav a:hover {
     color: #BAE6FD;
 }
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
 
 #btn-menu {
     display: none;
