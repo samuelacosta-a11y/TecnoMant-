@@ -93,3 +93,27 @@ footer {
     align-items: center;
     }
 }
+body.oscuro {
+    background-color: #020617;
+    color: #F8FAFC;
+}
+
+body.oscuro header {
+    background-color: #0F172A;
+}
+
+body.oscuro nav {
+    background-color: #1D4ED8;
+}
+
+body.oscuro section {
+    background-color: #0F172A;
+}
+
+body.oscuro article {
+    background-color: #1E293B;
+}
+
+body.oscuro footer {
+    background-color: #0F172A;
+}
