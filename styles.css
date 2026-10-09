@@ -42,6 +42,12 @@ nav a {
 nav a:hover {
     color: #BAE6FD;
 }
+
+
+#btn-menu {
+    display: none;
+}
+
 main {
     max-width: 1100px;
     margin: 30px auto;
@@ -88,10 +94,16 @@ footer {
     font-size: 14px;
 }
 @media (max-width: 600px) {
+    #btn-menu {
+    display: block;
+    }
     nav {
     flex-direction: column;
     align-items: center;
     }
+    nav ul {
+    display: none;
+}
 }
 body.oscuro {
     background-color: #020617;
