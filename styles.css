@@ -104,6 +104,9 @@ footer {
     nav ul {
     display: none;
 }
+nav ul.abierto {
+    display: flex;
+}
 }
 body.oscuro {
     background-color: #020617;
