@@ -115,6 +115,18 @@ footer {
 nav ul.abierto {
     display: flex;
 }
+
+    main {
+        padding: 0 12px;
+    }
+
+    section {
+        padding: 15px;
+    }
+
+    article {
+        padding: 15px;
+    }
 }
 body.oscuro {
     background-color: #020617;
@@ -140,3 +152,4 @@ body.oscuro article {
 body.oscuro footer {
     background-color: #0F172A;
 }
+
