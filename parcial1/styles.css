@@ -38,3 +38,8 @@ section {
     border: 1px solid #B9DDF2;
     border-radius: 12px;
 }
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
