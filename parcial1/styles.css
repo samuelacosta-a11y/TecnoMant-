@@ -6,3 +6,8 @@ body {
     line-height: 1.5;
     margin: 0;
 }
+header {
+    background-color: #D9F1FF;
+    padding: 25px;
+    text-align: center;
+}
