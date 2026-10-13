@@ -43,3 +43,22 @@ form {
     flex-direction: column;
     gap: 10px;
 }
+input,
+textarea {
+    padding: 10px;
+    border: 1px solid #B9DDF2;
+    border-radius: 8px;
+    font-family: Arial, sans-serif;
+}
+button {
+    margin-top: 15px;
+    padding: 10px 15px;
+    background-color: #1F78D1;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    font-weight: bold;
+}
+.oculto {
+    display: none;
+}
