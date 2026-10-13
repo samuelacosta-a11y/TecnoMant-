@@ -62,3 +62,22 @@ button {
 .oculto {
     display: none;
 }
+@media (max-width: 600px) {
+    nav {
+        display: block;
+        text-align: center;
+    }
+
+    nav a {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    main {
+        padding: 0 12px;
+    }
+
+    section {
+        padding: 15px;
+    }
+}
