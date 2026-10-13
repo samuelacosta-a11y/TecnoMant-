@@ -25,3 +25,16 @@ nav a {
     text-decoration: none;
     font-weight: bold;
 }
+main {
+    max-width: 1000px;
+    margin: 30px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: #FFFFFF;
+    padding: 25px;
+    margin-bottom: 25px;
+    border: 1px solid #B9DDF2;
+    border-radius: 12px;
+}
