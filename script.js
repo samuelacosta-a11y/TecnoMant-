@@ -21,3 +21,17 @@ function revisar(evento) {
 const nombre = document.querySelector("#nombre").value;
 const correo = document.querySelector("#correo").value;
 const mensaje = document.querySelector("#mensaje").value;
+
+if (nombre === "") {
+    aviso.textContent = "Escribe tu nombre.";
+    aviso.classList.remove("exito");
+    aviso.classList.add("error");
+} else if (correo === "") {
+    aviso.textContent = "Escribe tu correo electrónico.";
+    aviso.classList.remove("exito");
+    aviso.classList.add("error");
+} else {
+    aviso.textContent = "Formulario correcto.";
+    aviso.classList.remove("error");
+    aviso.classList.add("exito");
+}
