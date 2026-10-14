@@ -11,3 +11,10 @@ botonMenu.addEventListener("click", function () {
     menu.classList.toggle("abierto");
 
 });
+
+const formulario = document.querySelector("#form-contacto");
+const aviso = document.querySelector("#aviso-contacto");
+
+function revisar(evento) {
+    evento.preventDefault();
+}
