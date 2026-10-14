@@ -26,8 +26,8 @@ if (nombre === "") {
     aviso.textContent = "Escribe tu nombre.";
     aviso.classList.remove("exito");
     aviso.classList.add("error");
-} else if (correo === "") {
-    aviso.textContent = "Escribe tu correo electrónico.";
+    } else if (correo.includes("@") === false) {
+    aviso.textContent = "Ese correo no parece correcto: le falta el @.";
     aviso.classList.remove("exito");
     aviso.classList.add("error");
 } else {
