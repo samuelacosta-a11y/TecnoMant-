@@ -137,3 +137,17 @@ body.oscuro footer {
     background-color: #0F172A;
 }
 
+.aviso {
+    display: none;
+    margin-top: 14px;
+}
+
+.aviso.error {
+    display: block;
+    color: #b3261e;
+}
+
+.aviso.exito {
+    display: block;
+    color: #1a7f4f;
+}
