@@ -18,3 +18,6 @@ const aviso = document.querySelector("#aviso-contacto");
 function revisar(evento) {
     evento.preventDefault();
 }
+const nombre = document.querySelector("#nombre").value;
+const correo = document.querySelector("#correo").value;
+const mensaje = document.querySelector("#mensaje").value;
