@@ -22,5 +22,7 @@ foreach ($carta as $producto) {
     echo "<p>$producto</p>";
 }
 
+echo "<p>Te atiende Samuel Acosta Peralta</p>";
+
 ?>
 
