@@ -15,3 +15,10 @@ if (nombre === "" || correo === "") {
     aviso.classList.add("error");
     aviso.classList.remove("exito");
 }
+else if (correo.includes("@") === false) {
+    event.preventDefault();
+
+    aviso.textContent = "Parece que a tu correo le falta el @. Revisalo antes de continuar.";
+    aviso.classList.add("error");
+    aviso.classList.remove("exito");
+}
