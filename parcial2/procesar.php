@@ -10,5 +10,11 @@ echo "<p>Nombre: $nombre</p>";
 echo "<p>Correo: $correo</p>";
 echo "<p>Pedido: $pedido</p>";
 
+$carta = [
+    "Saltena de pollo - Bs 6",
+    "Docena de saltenas - Bs 65",
+    "Refresco de mocochinchi - Bs 5"
+];
+
 ?>
 
