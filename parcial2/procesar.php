@@ -16,5 +16,11 @@ $carta = [
     "Refresco de mocochinchi - Bs 5"
 ];
 
+echo "<h3>Carta</h3>";
+
+foreach ($carta as $producto) {
+    echo "<p>$producto</p>";
+}
+
 ?>
 
