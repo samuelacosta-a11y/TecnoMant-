@@ -22,3 +22,8 @@ else if (correo.includes("@") === false) {
     aviso.classList.add("error");
     aviso.classList.remove("exito");
 }
+else {
+    aviso.textContent = "Pedido tomado - te atiende Samuel Acosta Peralta";
+    aviso.classList.add("exito");
+    aviso.classList.remove("error");
+}
