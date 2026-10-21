@@ -27,3 +27,4 @@ else {
     aviso.classList.add("exito");
     aviso.classList.remove("error");
 }
+formulario.addEventListener("submit", revisar);
